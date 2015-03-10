@@ -14,14 +14,6 @@ def index():
 		length=length,
 		files=files,
 		assets=assets)
-"""
-@app.route("/<filename>")
-def play(filename):
-	return render_template('play.html',
-		title=filename,
-		file=filename)
-"""
-
 
 if __name__ == '__main__':
 	app.debug = True

@@ -1,7 +1,9 @@
 {%extends 'base.html'%}
 {%block play%}
 	{%for i in range(length)%}
-			<h3>{{files[i]}}</h3>
-			<audio src="/static/music/{{files[i]}}" type="audio/mpeg" preload="auto" controls>Your browser does not support this audio format.</audio>
+	<div class="col-md-3">
+			<h3>{{files[i].split(".")[0]}}</h3>
+			<audio src="/static/music/{{files[i]}}" type="audio/mpeg" preload="auto">Your browser does not support this audio format.</audio>
+	</div>
 	{%endfor%}
 {%endblock%}
