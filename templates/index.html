@@ -5,9 +5,9 @@
 		<div class="row">
 	{%endif%}
 	<div class="col-md-2">
-			<div align="center" class="box_transition"><img src='../static/images/babyface.png' width='25%'/></div>
-			<h3 align="center">{{files[i].split(".")[0]}}</h3>
-			<audio src="/static/music/{{files[i]}}" type="audio/mpeg" preload="auto">Your browser does not support this audio format.</audio>
+			<div align="center" class="box_transition"><img src='../static/images/babyface.png' class="{{files[i][0]}}" width='25%'/></div>
+			<h3 align="center">{{files[i][1].split(".")[0]}}</h3>
+			<audio src="/static/music/{{files[i][0]}}/{{files[i][1]}}" type="audio/mpeg" preload="auto">Your browser does not support this audio format.</audio>
 	</div>
 	{%if (i+1)%6==0 %}
 		</div>

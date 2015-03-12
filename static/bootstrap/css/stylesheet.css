@@ -15,3 +15,31 @@ div{
        -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
           transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
 }	
+
+img.BillyH{
+  content:url(../../../static/images/BillyH.png);
+}
+
+img.Brother{
+  content:url(../../../static/images/Brother.png);
+}
+
+img.MarkW{
+  content:url(../../../static/images/MarkW.png);
+}
+
+img.Ripped{
+  content:url(../../../static/images/Ripped.png);
+}
+
+img.Slave{
+  content:url(../../../static/images/Slave.png);
+}
+
+img.Unripped{
+  content:url(../../../static/images/Unripped.png);
+}
+
+img.VanD{
+  content:url(../../../static/images/VanD.png);
+}
