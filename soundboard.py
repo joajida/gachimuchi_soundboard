@@ -9,7 +9,6 @@ app = Flask(__name__)
 def index():
 	dirs=[d for d in os.listdir(assets)]
 	files=[(fold,f) for fold in dirs for f in os.listdir(assets+fold)]
-	#files=[f for f in os.listdir(assets)if f.endswith('mp3')]
 	length=len(files)
 	return render_template('index.html',
 		title='List',
